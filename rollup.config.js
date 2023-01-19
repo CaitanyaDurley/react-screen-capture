@@ -7,7 +7,7 @@ import pkg from './package.json';
 import postcss from "rollup-plugin-postcss";
 
 export default {
-  input: 'src/react-screen-capture.ts',
+  input: 'src/index.tsx',
   output: [
     {
       file: pkg.main,
